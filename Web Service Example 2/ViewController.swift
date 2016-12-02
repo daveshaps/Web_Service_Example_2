@@ -12,8 +12,6 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var forecastLabel: UILabel!
     
-    //var temperature: Double?
-    
     
     //note had the fix bridge file address in Build Settings while enter in text bridge.h in Thinkful instructions (had to make slight modification)
     
@@ -21,6 +19,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let manager = AFHTTPSessionManager()
+        
+        self.forecastLabel.text = ""
+        
+        //instantiate a gray Activity Indicator View
+        let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        //add the activity to the ViewController's view
+        view.addSubview(activityIndicatorView)
+        //position the Activity Indicator View in the center of the view
+        activityIndicatorView.center = view.center
+        //tell the Activity Indicator View to begin animating
+        activityIndicatorView.startAnimating()
+        
+        
         //part 1 (this url not working properly): making the call
         
         manager.get("http://api.openweathermap.org/data/2.5/forecast/daily?q=London&mode=json&units=metric&cnt=1&APPID=66b5968b099a9da177d785964be9f493",
@@ -34,6 +45,7 @@ class ViewController: UIViewController {
                             var json = JSON(responseObject)
                             if let forecast = json["list"][0]["weather"][0]["description"].string {
                                 self.forecastLabel.text = String(forecast)
+                                //self.forecastLabel.morphingEffect = .Scale
                             }
                             
                             //changing background based on temperature (not working....)
@@ -48,6 +60,9 @@ class ViewController: UIViewController {
                                 }
                             
                             }
+                            
+                            //remove activity indicator now that everything has loaded
+                            activityIndicatorView.removeFromSuperview()
                             
  
                         }
