@@ -18,8 +18,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let manager = AFHTTPSessionManager()
-        
         self.forecastLabel.text = ""
         
         //instantiate a gray Activity Indicator View
@@ -33,7 +31,7 @@ class ViewController: UIViewController {
         
         
         //part 1 (this url not working properly): making the call
-        
+        let manager = AFHTTPSessionManager()
         manager.get("http://api.openweathermap.org/data/2.5/forecast/daily?q=London&mode=json&units=metric&cnt=1&APPID=66b5968b099a9da177d785964be9f493",
                     parameters: nil,
                     progress: nil,
