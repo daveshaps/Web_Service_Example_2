@@ -13,6 +13,24 @@
 		30D46D551DF5B7C6002C3766 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D46D4D1DF5B7C6002C3766 /* AFURLRequestSerialization.m */; };
 		30D46D561DF5B7C6002C3766 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D46D4F1DF5B7C6002C3766 /* AFURLResponseSerialization.m */; };
 		30D46D571DF5B7C6002C3766 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D46D511DF5B7C6002C3766 /* AFURLSessionManager.m */; };
+		30D46DBF1DF731A8002C3766 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30D46DAB1DF731A8002C3766 /* Info.plist */; };
+		30D46DC01DF731A8002C3766 /* LTCharacterDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D46DAC1DF731A8002C3766 /* LTCharacterDiffResult.swift */; };
+		30D46DC11DF731A8002C3766 /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D46DAD1DF731A8002C3766 /* LTCharacterLimbo.swift */; };
+		30D46DC21DF731A8002C3766 /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D46DAE1DF731A8002C3766 /* LTEasing.swift */; };
+		30D46DC31DF731A8002C3766 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D46DAF1DF731A8002C3766 /* LTEmitterView.swift */; };
+		30D46DC41DF731A8002C3766 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D46DB01DF731A8002C3766 /* LTMorphingEffect.swift */; };
+		30D46DC51DF731A8002C3766 /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D46DB11DF731A8002C3766 /* LTMorphingLabel+Anvil.swift */; };
+		30D46DC61DF731A8002C3766 /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D46DB21DF731A8002C3766 /* LTMorphingLabel+Burn.swift */; };
+		30D46DC71DF731A8002C3766 /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D46DB31DF731A8002C3766 /* LTMorphingLabel+Evaporate.swift */; };
+		30D46DC81DF731A8002C3766 /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D46DB41DF731A8002C3766 /* LTMorphingLabel+Fall.swift */; };
+		30D46DC91DF731A8002C3766 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D46DB51DF731A8002C3766 /* LTMorphingLabel+Pixelate.swift */; };
+		30D46DCA1DF731A8002C3766 /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D46DB61DF731A8002C3766 /* LTMorphingLabel+Sparkle.swift */; };
+		30D46DCB1DF731A8002C3766 /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D46DB81DF731A8002C3766 /* LTMorphingLabel.swift */; };
+		30D46DCC1DF731A8002C3766 /* LTStringDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D46DB91DF731A8002C3766 /* LTStringDiffResult.swift */; };
+		30D46DCD1DF731A8002C3766 /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 30D46DBB1DF731A8002C3766 /* Fire.png */; };
+		30D46DCE1DF731A8002C3766 /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = 30D46DBC1DF731A8002C3766 /* Fragment.png */; };
+		30D46DCF1DF731A8002C3766 /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 30D46DBD1DF731A8002C3766 /* Smoke.png */; };
+		30D46DD01DF731A8002C3766 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 30D46DBE1DF731A8002C3766 /* Sparkle.png */; };
 		30E593641DE609BC00DDBBB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E593631DE609BC00DDBBB7 /* AppDelegate.swift */; };
 		30E593661DE609BC00DDBBB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E593651DE609BC00DDBBB7 /* ViewController.swift */; };
 		30E593691DE609BC00DDBBB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E593671DE609BC00DDBBB7 /* Main.storyboard */; };
@@ -55,6 +73,25 @@
 		30D46D4F1DF5B7C6002C3766 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		30D46D501DF5B7C6002C3766 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		30D46D511DF5B7C6002C3766 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		30D46DAB1DF731A8002C3766 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D46DAC1DF731A8002C3766 /* LTCharacterDiffResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTCharacterDiffResult.swift; sourceTree = "<group>"; };
+		30D46DAD1DF731A8002C3766 /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		30D46DAE1DF731A8002C3766 /* LTEasing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTEasing.swift; sourceTree = "<group>"; };
+		30D46DAF1DF731A8002C3766 /* LTEmitterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTEmitterView.swift; sourceTree = "<group>"; };
+		30D46DB01DF731A8002C3766 /* LTMorphingEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMorphingEffect.swift; sourceTree = "<group>"; };
+		30D46DB11DF731A8002C3766 /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
+		30D46DB21DF731A8002C3766 /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
+		30D46DB31DF731A8002C3766 /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		30D46DB41DF731A8002C3766 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
+		30D46DB51DF731A8002C3766 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		30D46DB61DF731A8002C3766 /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
+		30D46DB71DF731A8002C3766 /* LTMorphingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMorphingLabel.h; sourceTree = "<group>"; };
+		30D46DB81DF731A8002C3766 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMorphingLabel.swift; sourceTree = "<group>"; };
+		30D46DB91DF731A8002C3766 /* LTStringDiffResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTStringDiffResult.swift; sourceTree = "<group>"; };
+		30D46DBB1DF731A8002C3766 /* Fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fire.png; sourceTree = "<group>"; };
+		30D46DBC1DF731A8002C3766 /* Fragment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fragment.png; sourceTree = "<group>"; };
+		30D46DBD1DF731A8002C3766 /* Smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smoke.png; sourceTree = "<group>"; };
+		30D46DBE1DF731A8002C3766 /* Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sparkle.png; sourceTree = "<group>"; };
 		30E593601DE609BC00DDBBB7 /* Web Service Example 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Service Example 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E593631DE609BC00DDBBB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30E593651DE609BC00DDBBB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +154,40 @@
 			path = "Web Service Example 2/AFNetworking2/AFNetworking";
 			sourceTree = "<group>";
 		};
+		30D46DAA1DF731A8002C3766 /* LTMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				30D46DAB1DF731A8002C3766 /* Info.plist */,
+				30D46DAC1DF731A8002C3766 /* LTCharacterDiffResult.swift */,
+				30D46DAD1DF731A8002C3766 /* LTCharacterLimbo.swift */,
+				30D46DAE1DF731A8002C3766 /* LTEasing.swift */,
+				30D46DAF1DF731A8002C3766 /* LTEmitterView.swift */,
+				30D46DB01DF731A8002C3766 /* LTMorphingEffect.swift */,
+				30D46DB11DF731A8002C3766 /* LTMorphingLabel+Anvil.swift */,
+				30D46DB21DF731A8002C3766 /* LTMorphingLabel+Burn.swift */,
+				30D46DB31DF731A8002C3766 /* LTMorphingLabel+Evaporate.swift */,
+				30D46DB41DF731A8002C3766 /* LTMorphingLabel+Fall.swift */,
+				30D46DB51DF731A8002C3766 /* LTMorphingLabel+Pixelate.swift */,
+				30D46DB61DF731A8002C3766 /* LTMorphingLabel+Sparkle.swift */,
+				30D46DB71DF731A8002C3766 /* LTMorphingLabel.h */,
+				30D46DB81DF731A8002C3766 /* LTMorphingLabel.swift */,
+				30D46DB91DF731A8002C3766 /* LTStringDiffResult.swift */,
+				30D46DBA1DF731A8002C3766 /* Particles */,
+			);
+			path = LTMorphingLabel;
+			sourceTree = "<group>";
+		};
+		30D46DBA1DF731A8002C3766 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				30D46DBB1DF731A8002C3766 /* Fire.png */,
+				30D46DBC1DF731A8002C3766 /* Fragment.png */,
+				30D46DBD1DF731A8002C3766 /* Smoke.png */,
+				30D46DBE1DF731A8002C3766 /* Sparkle.png */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
 		30E593571DE609BC00DDBBB7 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +197,7 @@
 				30E593771DE609BC00DDBBB7 /* Web Service Example 2Tests */,
 				30E593821DE609BC00DDBBB7 /* Web Service Example 2UITests */,
 				30E593611DE609BC00DDBBB7 /* Products */,
+				30D46DAA1DF731A8002C3766 /* LTMorphingLabel */,
 			);
 			sourceTree = "<group>";
 		};
@@ -278,8 +350,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D46DD01DF731A8002C3766 /* Sparkle.png in Resources */,
+				30D46DBF1DF731A8002C3766 /* Info.plist in Resources */,
+				30D46DCE1DF731A8002C3766 /* Fragment.png in Resources */,
 				30E5936E1DE609BC00DDBBB7 /* LaunchScreen.storyboard in Resources */,
+				30D46DCD1DF731A8002C3766 /* Fire.png in Resources */,
 				30E5936B1DE609BC00DDBBB7 /* Assets.xcassets in Resources */,
+				30D46DCF1DF731A8002C3766 /* Smoke.png in Resources */,
 				30E593691DE609BC00DDBBB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,15 +382,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D46DC41DF731A8002C3766 /* LTMorphingEffect.swift in Sources */,
+				30D46DCB1DF731A8002C3766 /* LTMorphingLabel.swift in Sources */,
+				30D46DC11DF731A8002C3766 /* LTCharacterLimbo.swift in Sources */,
+				30D46DC71DF731A8002C3766 /* LTMorphingLabel+Evaporate.swift in Sources */,
 				30D46D571DF5B7C6002C3766 /* AFURLSessionManager.m in Sources */,
 				30E593661DE609BC00DDBBB7 /* ViewController.swift in Sources */,
+				30D46DCC1DF731A8002C3766 /* LTStringDiffResult.swift in Sources */,
 				30E593A71DE60BF000DDBBB7 /* SwiftyJSON.swift in Sources */,
+				30D46DC01DF731A8002C3766 /* LTCharacterDiffResult.swift in Sources */,
+				30D46DC81DF731A8002C3766 /* LTMorphingLabel+Fall.swift in Sources */,
 				30D46D541DF5B7C6002C3766 /* AFSecurityPolicy.m in Sources */,
 				30E593641DE609BC00DDBBB7 /* AppDelegate.swift in Sources */,
+				30D46DC31DF731A8002C3766 /* LTEmitterView.swift in Sources */,
 				30D46D551DF5B7C6002C3766 /* AFURLRequestSerialization.m in Sources */,
+				30D46DC21DF731A8002C3766 /* LTEasing.swift in Sources */,
+				30D46DCA1DF731A8002C3766 /* LTMorphingLabel+Sparkle.swift in Sources */,
+				30D46DC91DF731A8002C3766 /* LTMorphingLabel+Pixelate.swift in Sources */,
+				30D46DC61DF731A8002C3766 /* LTMorphingLabel+Burn.swift in Sources */,
 				30D46D521DF5B7C6002C3766 /* AFHTTPSessionManager.m in Sources */,
 				30D46D531DF5B7C6002C3766 /* AFNetworkReachabilityManager.m in Sources */,
 				30D46D561DF5B7C6002C3766 /* AFURLResponseSerialization.m in Sources */,
+				30D46DC51DF731A8002C3766 /* LTMorphingLabel+Anvil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

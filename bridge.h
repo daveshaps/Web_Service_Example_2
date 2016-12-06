@@ -12,4 +12,4 @@
 
 #endif /* bridge_h */
 
-#import "AFNetworking/AFNetworking.h"
+#import "AFNetworking.h"

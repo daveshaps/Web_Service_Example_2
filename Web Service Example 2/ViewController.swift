@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var forecastLabel: UILabel!
-    
+    //LTMorphingLabel
     
     //note had the fix bridge file address in Build Settings while enter in text bridge.h in Thinkful instructions (had to make slight modification)
     
@@ -40,10 +40,11 @@ class ViewController: UIViewController {
                             print("Response: " + (responseObject as AnyObject).description)
                             //inserted data accessing part here so responseObject is defined
                             
+                            //using SwiftyJSON
                             var json = JSON(responseObject)
                             if let forecast = json["list"][0]["weather"][0]["description"].string {
                                 self.forecastLabel.text = String(forecast)
-                                //self.forecastLabel.morphingEffect = .Scale
+                                //self.forecastLabel.morphingEffect = .Fall
                             }
                             
                             //changing background based on temperature (not working....)
@@ -67,18 +68,11 @@ class ViewController: UIViewController {
                     })
                         { (operation:URLSessionDataTask?, error:Error) in print("Error: " + error.localizedDescription) }
         
-        //part 2: accessing the data
-        
-        //using SwiftyJSON
-        /*
-        let json = JSON(responseObject)
-        if let forecast = json["list"][0]["temp"]["morn"].string {
-            self.forecastLabel.text = forecast
-        }
-        */
-        
     }
 
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

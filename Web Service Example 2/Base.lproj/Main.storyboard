@@ -38,8 +38,8 @@
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="LGX-wB-jlm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hHn-2p-4cu"/>
-                            <constraint firstItem="LGX-wB-jlm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="z0X-hz-qdm"/>
+                            <constraint firstItem="LGX-wB-jlm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AbB-v0-Lm6"/>
+                            <constraint firstItem="LGX-wB-jlm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rdg-fI-EAZ"/>
                         </constraints>
                     </view>
                     <connections>
@@ -48,7 +48,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
+            <point key="canvasLocation" x="55" y="-42"/>
         </scene>
     </scenes>
 </document>
